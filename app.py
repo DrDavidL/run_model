@@ -4,6 +4,9 @@ import pickle
 import pandas as pd
 
 st.title("Outcomes Prediction App")
+st.info("""This app uses uploaded pre-processing settings and a neural network model to predict outcomes based on user input values. While 
+        it has basic ability to accomodate variations, it's intended to be used for models generated using this [Colab Notebook](https://colab.research.google.com/drive/1NtxhdVMr3PTlQ5gSGznqJdx1drQIkrCO?usp=sharing#scrollTo=GJ4hroAYyHwu).
+        Ask Dr. David Liebovitz at Northwestern Feinberg School of Medicine for more information. """)
 
 # ============================
 # Step 1: Upload Files
