@@ -45,7 +45,7 @@ else:
 # Step 2: Dynamic Input Form
 # ============================
 if preprocessor is not None and model is not None:
-    st.sidebar.header("Enter Patient Data")
+    st.sidebar.header("Enter Model Inputs")
     
     # Ask for the name of the label to predict
     label_name = st.sidebar.text_input("Enter the name of the label to predict", "Outcome")
